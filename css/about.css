@@ -1,0 +1,116 @@
+.about-h1 {
+	font-size:45px;
+	margin-top: 90px;
+	text-align: center;
+}
+.about-h2 {
+	font-size:20px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.proposal
+{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+form 
+{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  } 
+label {
+    display: inline-block;
+    text-align: right;
+  } 
+input, textarea {
+    color: #eb5669;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+  
+input:focus, textarea:focus {
+    border-color: rgb(173, 37, 37);
+}
+  
+textarea {
+color: #eb5669;
+vertical-align: top;
+ height: 5em;
+ resize: vertical;
+}
+  
+.button {
+color: #eb5669;
+margin: auto;
+margin-top: 10px;
+}
+  
+.container-marketing
+{
+    margin-top:100px;
+    text-align: center;
+    border-top:solid;
+    border-bottom:solid;
+    border-color: #fff;
+    border-width: 2px;
+    background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('https://picsum.photos/id/788/960/720');
+    background-size:cover;
+}
+.intro-about
+{
+    text-align:center;
+}
+.row
+{
+    padding-top: 70px;     
+}
+.rounded-circle
+{
+    border-radius: 100%;
+}
+@media(min-width:768px)
+{
+    .container-marketing
+    {
+        text-align: center;
+		padding:0;
+        font-size:60px;
+		margin-top:90px;
+		margin-bottom:20px;
+		display:inline-block;
+		padding:10px 0; 
+        margin: auto;
+    }
+
+}
+@media(max-width:767px)
+{
+    .container-marketing
+    {
+        text-align: center;
+		padding:0;
+        font-size:60px;
+		margin-top:90px;
+		margin-bottom:20px;
+		display:inline-block;
+		padding:10px 0; 
+        margin: auto;
+    }
+    .proposal
+    {
+        text-align: center;
+		padding:0;
+		display:inline-block;
+    }
+}
