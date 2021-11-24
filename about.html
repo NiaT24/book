@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>О НАС</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+</head>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">BOOKS </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="about.html">О нас</a>
+                    </li>
+                    <li>
+                        <a href="books.html">Рецензии</a>
+                    </li>
+                    <li>
+                        <a href="citation.html">Цитаты</a>
+                    </li>
+                    <li>
+                        <a href="authors.html">Авторы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="intro-about">
+        <div class="intro-body">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="about-h1">А теперь давайте познакомимся!</h1>
+                        <h2 class="about-h2">Мы представляем собой небольшой сервис, <br>
+                            который содержит в себе рецензии на книги. 
+                            <br>А вдруг и Вам мы поможем подобрать книгу для души</h2>
+                            <a href="#pages" class="btn btn-circle page-scroll" style="margin: 5%;">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                    </div>
+                </div>
+        </div>
+    </header>
+<section id="pages" class="container-marketing">
+    <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://c1623.c.3072.ru/pluginfile.php/3984/course/overviewfiles/s-c9e37a11121cafc48fa8726d2dceae505af8ead2.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2 style="padding-top: 10px;">Авторы</h2>
+          <p>В этом разделе Вы можете прочитать небольшие статьи о писателях и их работах</p>
+          <p><a class="btn btn-secondary" href="authors.html" role="button">Перейти&raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://img5.goodfon.ru/original/800x480/a/75/pechatnaia-mashinka-listy-ochki.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2 style="padding-top: 10px;">Рецензии</h2>
+          <p>В этом разделе Вы можете ознакомиться с рецензиями читателей на некоторые известные произведения</p>
+          <p><a class="btn btn-secondary" href="books.html" role="button">Перейти &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="http://pm1.narvii.com/6589/fb3f021dc4242ec49b5e5af72fc90e773e3d78fa_00.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2 style="padding-top: 10px;">Цитаты</h2>
+          <p>в этом разделе вы можете ознакомиться с некоторыми книжными цитатами</p>
+          <p><a class="btn btn-secondary" href="citation.html" role="button">Перейти &raquo;</a></p>
+        </div>
+    </div>  
+</section>
+    <section class="proposal">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Отправьте нам свою рецензию и мы ее рассмотрим!</h2>
+                <!-- <form action="about.html" method="post"> -->
+                    <form>
+                    <ul>
+                        <li>
+                            <label for="name">Как Вас зовут:</label>
+                            <input type="text" id="name" name="user_name">
+                        </li>
+                        <li>
+                            <label for="mail">Введите свой e-mail:</label>
+                            <input type="email" id="mail" name="user_email">
+                        </li>
+                        <li>
+                            <label for="msg">Введите текст Вашей рецензии:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Отправить</button>
+                        </li>
+                    </ul>   
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="container text-center">
+        <p class="credits">
+            Copyright &copy; Books 2021<br />
+            Рецензии книг на Books.com
+        </p>
+    </div>
+</footer>
+</html>

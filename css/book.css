@@ -1,0 +1,39 @@
+h1{
+    margin-top: 100px; text-align: center;
+}
+.card-title .img
+{
+   margin: 10px; 
+}
+
+.card
+{
+    height: 1060px;   
+}
+
+.card img
+{
+    height: 300px;
+    margin-bottom: 10px;   
+}
+.good-review-score{
+    
+    background-color:#66CC33;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-right: 5px;
+    width: 100px;
+    height: 60px;
+	margin-bottom: -60px; 
+}
+
+.card-title{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+.card-text-reviwe{
+	font-size: 15px;
+    text-align: justify;
+} 
