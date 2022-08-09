@@ -207,4 +207,6 @@ footer p {
 	position:relative;
 	padding:0;	
 }
+.navbar-toggler.toggler-example {
+  cursor: pointer;
 
